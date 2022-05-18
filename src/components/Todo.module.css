@@ -1,0 +1,42 @@
+.todoList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid black; */
+   
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: scroll;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.main{
+    position:fixed;
+    padding: 10px;
+    top: 30%;
+    left: 50%;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -9em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
+
+.striked{
+    text-decoration:line-through ;
+    color: red;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+
+}
